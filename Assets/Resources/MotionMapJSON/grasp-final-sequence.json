@@ -1,0 +1,342 @@
+{
+    "sequences": {
+        "sequence": [
+            {
+                "applicationData": "{\"kinova\":{\"color\":0}}",
+                "handle": {
+                    "identifier": 10012,
+                    "permission": 7
+                },
+                "name": "Grasp",
+                "tasks": [
+                    {
+                        "applicationData": "{\"kinova\":{}}",
+                        "action": {
+                            "applicationData": "{\"kinova\":{\"color\":0}}",
+                            "handle": {
+                                "identifier": 10003,
+                                "permission": 7,
+                                "actionType": 7
+                            },
+                            "reachJointAngles": {
+                                "jointAngles": {
+                                    "jointAngles": [
+                                        {
+                                            "value": 22.33601188659668,
+                                            "jointIdentifier": 0
+                                        },
+                                        {
+                                            "value": 283.78900146484375,
+                                            "jointIdentifier": 1
+                                        },
+                                        {
+                                            "value": 254.95501708984375,
+                                            "jointIdentifier": 2
+                                        },
+                                        {
+                                            "value": 6.197412967681885,
+                                            "jointIdentifier": 3
+                                        },
+                                        {
+                                            "value": 259.6907653808594,
+                                            "jointIdentifier": 4
+                                        },
+                                        {
+                                            "value": 89.52884674072266,
+                                            "jointIdentifier": 5
+                                        }
+                                    ]
+                                },
+                                "constraint": {
+                                    "type": 0,
+                                    "value": 0
+                                }
+                            },
+                            "name": "pre-home"
+                        },
+                        "groupIdentifier": 0
+                    },
+                    {
+                        "applicationData": "{\"kinova\":{}}",
+                        "action": {
+                            "applicationData": "{\"kinova\":{\"color\":0}}",
+                            "handle": {
+                                "identifier": 10281,
+                                "permission": 7,
+                                "actionType": 7
+                            },
+                            "reachJointAngles": {
+                                "jointAngles": {
+                                    "jointAngles": [
+                                        {
+                                            "value": 16.143665313720703,
+                                            "jointIdentifier": 0
+                                        },
+                                        {
+                                            "value": 3.7782492637634277,
+                                            "jointIdentifier": 1
+                                        },
+                                        {
+                                            "value": 253.406005859375,
+                                            "jointIdentifier": 2
+                                        },
+                                        {
+                                            "value": 0.7146781086921692,
+                                            "jointIdentifier": 3
+                                        },
+                                        {
+                                            "value": 294.9139709472656,
+                                            "jointIdentifier": 4
+                                        },
+                                        {
+                                            "value": 89.50235748291016,
+                                            "jointIdentifier": 5
+                                        }
+                                    ]
+                                },
+                                "constraint": {
+                                    "type": 0,
+                                    "value": 0
+                                }
+                            },
+                            "name": "feed joint"
+                        },
+                        "groupIdentifier": 1
+                    },
+                    {
+                        "applicationData": "{\"kinova\":{}}",
+                        "action": {
+                            "applicationData": "{\"kinova\":{\"color\":0}}",
+                            "handle": {
+                                "identifier": 10186,
+                                "permission": 1,
+                                "actionType": 33
+                            },
+                            "sendGripperCommand": {
+                                "mode": 3,
+                                "gripper": {
+                                    "finger": [
+                                        {
+                                            "value": 0.6491227746009827,
+                                            "fingerIdentifier": 1
+                                        }
+                                    ]
+                                },
+                                "duration": 0
+                            },
+                            "name": "close 65"
+                        },
+                        "groupIdentifier": 2
+                    },
+                    {
+                        "applicationData": "{\"kinova\":{}}",
+                        "action": {
+                            "applicationData": "{\"kinova\":{\"color\":0}}",
+                            "handle": {
+                                "identifier": 10277,
+                                "permission": 7,
+                                "actionType": 7
+                            },
+                            "reachJointAngles": {
+                                "jointAngles": {
+                                    "jointAngles": [
+                                        {
+                                            "value": 16.139192581176758,
+                                            "jointIdentifier": 0
+                                        },
+                                        {
+                                            "value": 13.763999938964844,
+                                            "jointIdentifier": 1
+                                        },
+                                        {
+                                            "value": 253.4082794189453,
+                                            "jointIdentifier": 2
+                                        },
+                                        {
+                                            "value": 0.6418038010597229,
+                                            "jointIdentifier": 3
+                                        },
+                                        {
+                                            "value": 297.1642761230469,
+                                            "jointIdentifier": 4
+                                        },
+                                        {
+                                            "value": 89.49276733398438,
+                                            "jointIdentifier": 5
+                                        }
+                                    ]
+                                },
+                                "constraint": {
+                                    "type": 0,
+                                    "value": 0
+                                }
+                            },
+                            "name": "feed grasp"
+                        },
+                        "groupIdentifier": 3
+                    },
+                    {
+                        "applicationData": "{\"kinova\":{}}",
+                        "action": {
+                            "applicationData": "{\"kinova\":{\"color\":0}}",
+                            "handle": {
+                                "identifier": 10188,
+                                "permission": 1,
+                                "actionType": 33
+                            },
+                            "sendGripperCommand": {
+                                "mode": 3,
+                                "gripper": {
+                                    "finger": [
+                                        {
+                                            "value": 0.925438642501831,
+                                            "fingerIdentifier": 1
+                                        }
+                                    ]
+                                },
+                                "duration": 0
+                            },
+                            "name": "close 90"
+                        },
+                        "groupIdentifier": 4
+                    },
+                    {
+                        "applicationData": "{\"kinova\":{}}",
+                        "action": {
+                            "applicationData": "{\"kinova\":{\"color\":0}}",
+                            "handle": {
+                                "identifier": 10104,
+                                "permission": 7,
+                                "actionType": 7
+                            },
+                            "reachJointAngles": {
+                                "jointAngles": {
+                                    "jointAngles": [
+                                        {
+                                            "value": 82.38423156738281,
+                                            "jointIdentifier": 0
+                                        },
+                                        {
+                                            "value": 357.2928466796875,
+                                            "jointIdentifier": 1
+                                        },
+                                        {
+                                            "value": 291.3092956542969,
+                                            "jointIdentifier": 2
+                                        },
+                                        {
+                                            "value": 46.369998931884766,
+                                            "jointIdentifier": 3
+                                        },
+                                        {
+                                            "value": 249.2071990966797,
+                                            "jointIdentifier": 4
+                                        },
+                                        {
+                                            "value": 13.201473236083984,
+                                            "jointIdentifier": 5
+                                        }
+                                    ]
+                                },
+                                "constraint": {
+                                    "type": 0,
+                                    "value": 0
+                                }
+                            },
+                            "name": "pre-feed"
+                        },
+                        "groupIdentifier": 5
+                    },
+                    {
+                        "applicationData": "{\"kinova\":{}}",
+                        "action": {
+                            "applicationData": "{\"kinova\":{\"color\":0}}",
+                            "handle": {
+                                "identifier": 10190,
+                                "permission": 7,
+                                "actionType": 31
+                            },
+                            "delay": {
+                                "duration": 3
+                            },
+                            "name": "Delay"
+                        },
+                        "groupIdentifier": 6
+                    },
+                    {
+                        "applicationData": "{\"kinova\":{}}",
+                        "action": {
+                            "applicationData": "{\"kinova\":{\"color\":0}}",
+                            "handle": {
+                                "identifier": 10191,
+                                "permission": 1,
+                                "actionType": 33
+                            },
+                            "sendGripperCommand": {
+                                "mode": 3,
+                                "gripper": {
+                                    "finger": [
+                                        {
+                                            "value": 0.6600000262260437,
+                                            "fingerIdentifier": 1
+                                        }
+                                    ]
+                                },
+                                "duration": 0
+                            },
+                            "name": "open 65"
+                        },
+                        "groupIdentifier": 7
+                    },
+                    {
+                        "applicationData": "{\"kinova\":{}}",
+                        "action": {
+                            "applicationData": "{\"kinova\":{\"color\":0}}",
+                            "handle": {
+                                "identifier": 10003,
+                                "permission": 7,
+                                "actionType": 7
+                            },
+                            "reachJointAngles": {
+                                "jointAngles": {
+                                    "jointAngles": [
+                                        {
+                                            "value": 22.33601188659668,
+                                            "jointIdentifier": 0
+                                        },
+                                        {
+                                            "value": 283.78900146484375,
+                                            "jointIdentifier": 1
+                                        },
+                                        {
+                                            "value": 254.95501708984375,
+                                            "jointIdentifier": 2
+                                        },
+                                        {
+                                            "value": 6.197412967681885,
+                                            "jointIdentifier": 3
+                                        },
+                                        {
+                                            "value": 259.6907653808594,
+                                            "jointIdentifier": 4
+                                        },
+                                        {
+                                            "value": 89.52884674072266,
+                                            "jointIdentifier": 5
+                                        }
+                                    ]
+                                },
+                                "constraint": {
+                                    "type": 0,
+                                    "value": 0
+                                }
+                            },
+                            "name": "pre-home"
+                        },
+                        "groupIdentifier": 8
+                    }
+                ]
+            }
+        ]
+    }
+}

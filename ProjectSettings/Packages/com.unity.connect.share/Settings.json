@@ -1,0 +1,26 @@
+{
+    "m_Dictionary": {
+        "m_DictionaryValues": [
+            {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "firstTime",
+                "value": "{\"m_Value\":false}"
+            },
+            {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "autoPublish",
+                "value": "{\"m_Value\":false}"
+            },
+            {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "createDefaultBuildsFolder",
+                "value": "{\"m_Value\":true}"
+            },
+            {
+                "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "buildOutputDirList",
+                "value": "{\"m_Value\":\"/home/wince/rcareworld_workspace/RoboticSimulationTesting/WebGL Builds/robSim;/home/wince/rcareworld_workspace/RoboticSimulationTesting/WebGL Builds/romSim;/home/wince/rcareworld_workspace/RoboticSimulationTesting/WebGL Builds/roboticSim;/home/wince/rcareworld_workspace/RoboticSimulationTesting/WebGL Builds/roboticSim-7.22-2;/home/wince/rcareworld_workspace/RoboticSimulationTesting/WebGL Builds/roboticSim-7.22;;;;;\"}"
+            }
+        ]
+    }
+}
