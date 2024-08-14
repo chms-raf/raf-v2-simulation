@@ -22,7 +22,7 @@ Packages used:
 - [UI Rounded Corners (3.4.1)](https://github.com/ReForge-Mode/Unity_UI_Rounded_Corners)
 - TextMeshPro
 	- Under `Window` > `TextMeshPro`, select `Import TMP Essential Resources`
-  
+### Modifications
 This program modified some of the scripts from the libraries in order to function.
 - From the `_ModifiedLibraryScripts` folder under the `Assets > Scripts` directory change these scripts:
 	- `BioIK.cs` in the `BioIK` folder under `Assets`
