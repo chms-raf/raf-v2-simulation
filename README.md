@@ -11,17 +11,26 @@ Clone this repository:
 git clone https://github.com/chms-raf/raf-v2-simulation.git
 ```
 
-Then, open the `raf-v2-simulation` project in Unity.
+Then, open the `raf-v2-simulation` project in Unity. It will say there are errors, continue to open it and download the dependencies to resolve the errors.
 #### Dependencies
 Install the following dependencies using the [Unity Package Manager](https://docs.unity3d.com/Manual/upm-ui.html).  
 Packages used:
 - [Bio IK (v2.0d)](https://assetstore.unity.com/packages/tools/animation/bio-ik-67819)
 - [URDF Importer (v0.5.2-preview)](https://github.com/Unity-Technologies/URDF-Importer)
 - [DOTween (HOTween v2) (1.2.765)](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676)
+	- Ensure to go through the DOTween setup
 - [UI Rounded Corners (3.4.1)](https://github.com/ReForge-Mode/Unity_UI_Rounded_Corners)
-
+- TextMeshPro
+	- Under `Window` > `TextMeshPro`, select `Import TMP Essential Resources`
+  
+This program modified some of the scripts from the libraries in order to function.
+- From the `_ModifiedLibraryScripts` folder under the `Assets > Scripts` directory change these scripts:
+	- `BioIK.cs` in the `BioIK` folder under `Assets`
+	- `Controller.cs` in the `Packages > URDF Importer > Runtime > Controller` directory
+	- The lines will have to be uncommented in order to work.
 #### Running
 - Open the `RAF_Scene` in the Scenes folder to run it in the Unity Software.
+- There will be errors labeled as `Assertion failed on expression: 'ValidTRS()'`. These do not effect the functionality of the program. This is due to the way the quaternions are calculated for the motion maps.
 - To build you can:
 	- Build for Windows/Linux applications
 	- Build for OpenGL to use on websites
